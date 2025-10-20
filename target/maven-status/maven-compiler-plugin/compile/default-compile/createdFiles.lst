@@ -1,0 +1,6 @@
+com/example/taskrunner/model/Task.class
+com/example/taskrunner/service/TaskService.class
+com/example/taskrunner/controller/TaskController.class
+com/example/taskrunner/TaskRunnerApplication.class
+com/example/taskrunner/repository/TaskRepository.class
+com/example/taskrunner/model/TaskExecution.class
