@@ -15,22 +15,17 @@ public class TaskController {
     @Autowired
     private TaskService taskService;
 
-    // ✅ Root message (optional)
-   
 
-    // ✅ Create a new task
     @PostMapping
     public Task createTask(@RequestBody Task task) {
         return taskService.saveTask(task);
     }
 
-    // ✅ Get all tasks
     @GetMapping
     public List<Task> getAllTasks() {
         return taskService.getAllTasks();
     }
 
-    // ✅ Get a task by ID
     @GetMapping("/{id}")
     public Optional<Task> getTaskById(@PathVariable String id) {
         return taskService.getTaskById(id);
