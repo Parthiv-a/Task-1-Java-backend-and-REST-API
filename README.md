@@ -1,14 +1,6 @@
-# Task Runner (Kaiburr Task 1)
-
-### Author: Parthiv A
-### Date: (insert system date visible in screenshots)
-
----
 
 ## Description
 A simple Java Spring Boot + MongoDB REST API for creating, searching, deleting, and executing shell tasks.
-
----
 
 ## API Endpoints
 
@@ -30,4 +22,5 @@ A simple Java Spring Boot + MongoDB REST API for creating, searching, deleting, 
    docker run -d -p 27017:27017 mongo:6.0
 
 2. Build and run:
+   
 mvn spring-boot:run
